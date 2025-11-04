@@ -85,8 +85,7 @@
             <div class="copy-icon" onclick="copyCode()" role="button" tabindex="0" aria-label="Copy code to clipboard" title="Copy code to clipboard">
                 <i class="fas fa-copy"></i>
             </div>
-            <pre class="code-container__code code-container__code--typescript code-container__code--active line-numbers">
-                <code class="language-typescript">import { verifyKey } from '@codeswitch/api'
+            <pre class="code-container__code code-container__code--typescript code-container__code--active line-numbers"><code class="language-typescript">import { verifyKey } from '@codeswitch/api'
 
 const { result, error } = await verifyKey({
     apiId: 'api_123',
@@ -102,10 +101,8 @@ if (!result.valid) {
 }
 
     // handle request
-                </code>
-            </pre>
-            <pre class="code-container__code code-container__code--python line-numbers">
-                <code class="language-python">import asyncio
+                </code></pre>
+            <pre class="code-container__code code-container__code--python line-numbers"><code class="language-python">import asyncio
 import os
 import codeswitch
 
@@ -122,8 +119,7 @@ if result.is_ok {
 }
                 </code>
             </pre>
-            <pre class="code-container__code code-container__code--rust line-numbers">
-                <code class="language-rust">use codeswitch::models::{VerifyKeyRequest, Wrapped};
+            <pre class="code-container__code code-container__code--rust line-numbers"><code class="language-rust">use codeswitch::models::{VerifyKeyRequest, Wrapped};
 use codeswitch::Client;
 
 async fn verify_key() {
@@ -138,8 +134,7 @@ async fn verify_key() {
 }
                 </code>
             </pre>
-            <pre class="code-container__code code-container__code--golang line-numbers">
-                <code class="language-go">package main
+            <pre class="code-container__code code-container__code--golang line-numbers"><code class="language-go">package main
 
 import (
     "fmt"
@@ -162,8 +157,7 @@ func main() {
 }
                 </code>
             </pre>
-            <pre class="code-container__code code-container__code--curl line-numbers">
-                <code class="language-bash">curl --request POST \
+            <pre class="code-container__code code-container__code--curl line-numbers"><code class="language-bash">curl --request POST \
 --url https://api.codeswitch.dev/v1/keys.verifyKey \
 --header 'Content-Type: application/json' \
 --data '{
@@ -172,8 +166,7 @@ func main() {
 }'
                 </code>
             </pre>
-            <pre class="code-container__code code-container__code--elixir line-numbers">
-                <code class="language-elixir">CodeswitchElixirSdk.verify_key("xyz_AS5HDbkXXPot2MMoPHD8jnL")
+            <pre class="code-container__code code-container__code--elixir line-numbers"><code class="language-elixir">CodeswitchElixirSdk.verify_key("xyz_AS5HDbkXXPot2MMoPHD8jnL")
 
 # returns
 %{
@@ -185,8 +178,7 @@ func main() {
 }
                 </code>
             </pre>
-            <pre class="code-container__code code-container__code--java line-numbers">
-                <code class="language-java">package com.example.myapp;
+            <pre class="code-container__code code-container__code--java line-numbers"><code class="language-java">package com.example.myapp;
 import com.codeswitch.codeswitchsdk.dto.KeyVerifyRequest;
 import com.codeswitch.codeswitchsdk.dto.KeyVerifyResponse;
 

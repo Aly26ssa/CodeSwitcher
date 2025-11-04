@@ -8,7 +8,7 @@ body {
     font-family: 'Geist Sans', sans-serif !important;
     background: black;
     color: #ffffff;
-    margin: 0;
+    margin-top: 5rem;
     padding: 0;
     display: flex;
     align-items: center;
@@ -27,6 +27,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 .header__title {
@@ -284,7 +285,7 @@ pre[class*="language-"].line-numbers > code {
     pointer-events: none;
     top: 0;
     font-size: 100%;
-    left: -3.8em;
+    left: -12em;
     width: 3em;
     letter-spacing: -1px;
     -webkit-user-select: none;
@@ -311,11 +312,11 @@ pre[class*="language-"].line-numbers > code {
 /*FOOTER*/
 
 .footer {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
     overflow-y: hidden;
 }
 
@@ -324,7 +325,7 @@ pre[class*="language-"].line-numbers > code {
     display: flex;
     gap: 10px;
     margin: 0;
-    padding: 0.5rem 0;
+    padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -375,7 +376,7 @@ pre[class*="language-"].line-numbers > code {
     height: 100px;
     background: linear-gradient(to bottom, transparent, white, transparent);
     opacity: 0.75;
-    animation: fall 8s linear infinite;
+    animation: fall 3s linear infinite;
 }
 
 @keyframes twinkling {
