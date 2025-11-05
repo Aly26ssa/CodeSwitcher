@@ -285,7 +285,7 @@ pre[class*="language-"].line-numbers > code {
     pointer-events: none;
     top: 0;
     font-size: 100%;
-    left: -12em;
+    left: -3.8em;
     width: 3em;
     letter-spacing: -1px;
     -webkit-user-select: none;
